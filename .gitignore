@@ -1,0 +1,26 @@
+# Secrets
+.env
+config.py
+
+# Runtime outputs
+output/
+*.log
+
+# Datasets and local models
+dataset/
+models/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Generated skill artifacts
+skills/*/reference/
+
+# Editor files
+.vscode/
+.idea/
+*.swp

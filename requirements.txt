@@ -1,0 +1,26 @@
+# Core dependencies
+requests>=2.28.0
+python-dotenv>=1.0.0
+numpy>=1.24.0
+Pillow>=9.0.0
+tqdm>=4.64.0
+torch>=2.0.0
+matplotlib>=3.6.0
+PyYAML>=6.0
+
+# Segmentation backend (SAM2)
+# Install from: https://github.com/facebookresearch/sam2
+# pip install sam-2
+
+# SAM3 (optional, via transformers)
+transformers>=4.40.0
+
+# HuggingFace datasets (for ReasonAff evaluation)
+datasets>=2.14.0
+
+# Web search skill dependencies (optional)
+beautifulsoup4>=4.12.0
+duckduckgo-search>=4.0
+
+# SigLIP / DINOv2 embeddings for memory retrieval (optional)
+# These are loaded via transformers; no extra install needed.
