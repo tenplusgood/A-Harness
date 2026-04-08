@@ -2,8 +2,17 @@
 
 [![Paper](#)](#) [![Project Page](#)](#)
 
-<!-- Author list placeholder -->
-<!-- Affiliation placeholder -->
+<div class="authors">
+  <a href="http://www.wonghougin.me/">Haojian Huang</a><sup>1,2*</sup>, 
+  <a href="https://tenplusgood.github.io/">Jiahao Shi</a><sup>2,3*</sup>, 
+  Yinchuan Li<sup>1,2</sup>, 
+  Yingcong Chen<sup>1,2†</sup>
+</div>
+
+<div class="affiliations">
+  <sup>1</sup>HKUST(GZ), <sup>2</sup>Knowin, <sup>3</sup>Harbin Engineering University<br>
+  <sup>*</sup>Equal Contribution, <sup>†</sup>Corresponding Author
+</div>
 
 <!-- Teaser image placeholder -->
 <!-- ![A-Harness](assets/teaser.png) -->
