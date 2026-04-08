@@ -1,6 +1,6 @@
 # A-Harness: An Agentic Framework for Affordance Detection
 
-[![Paper](#)](#) [![Project Page](#)](#)
+[![Paper](#)](#) [![Project Page](https://img.shields.io/badge/Project-Page-green)](https://tenplusgood.github.io/a-harness-page/)
 
 <div class="authors">
   <a href="http://www.wonghougin.me/">Haojian Huang</a><sup>1,2*</sup>, 
@@ -21,8 +21,6 @@ It combines tool-use planning, visual grounding, segmentation, and memory-augmen
 
 ## 📰 News
 
-* **[TBD]** Paper and project page links will be released.
-* **[TBD]** Public code release.
 
 ## Contents
 
@@ -91,28 +89,8 @@ python demo/evaluate_reasonaff.py \
 
 ```bash
 python demo/evaluate_umd.py \
-  --dataset_path dataset/UMD_preprocessed \
+  --dataset_path dataset/UMD \
   --output_dir output/eval_umd
-```
-
-## Project Structure
-
-```text
-A-Harness/
-├── agent.py
-├── demo/
-│   ├── run.py
-│   ├── evaluate_reasonaff.py
-│   └── evaluate_umd.py
-├── .env.example
-├── config.example.py
-├── requirements.txt
-├── api/
-├── prompts/
-├── skills/
-├── memory/
-├── dataset/
-└── scripts/
 ```
 
 ## Acknowledgement
