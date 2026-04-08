@@ -16,7 +16,7 @@
 
 ## Teaser
 
-[View teaser figure (PDF)](./Figures/comp.pdf)
+![A-Harness Teaser](/Figures/comp.png)
 
 A-Harness is an agentic framework for affordance detection with hierarchical memory.
 It combines tool-use planning, visual grounding, segmentation, and memory-augmented reasoning.
