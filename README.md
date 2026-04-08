@@ -15,6 +15,10 @@
 </div>
 
 <!-- Teaser image placeholder -->
+<div class="teaser-box">
+  <img src="{{ '/Figures/comp.png' | relative_url }}" alt="A-Harness Teaser">
+  <p style="margin-top: 1rem; font-style: italic;">A-Harness: A verification-gated runtime that unifies heterogeneous skills with adaptive routing and episodic memory.</p>
+</div>
 <!-- ![A-Harness](assets/teaser.png) -->
 
 A-Harness is an agentic framework for affordance detection with hierarchical memory.
