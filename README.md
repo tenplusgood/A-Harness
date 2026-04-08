@@ -14,10 +14,8 @@
   <sup>*</sup>Equal Contribution, <sup>†</sup>Corresponding Author
 </div>
 
-<div class="teaser-box">
-  <img src="{{ '/Figures/comp.png' | relative_url }}" alt="A-Harness Teaser">
-  <p style="margin-top: 1rem; font-style: italic;">A-Harness: A verification-gated runtime that unifies heterogeneous skills with adaptive routing and episodic memory.</p>
-</div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/tailer.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
 A-Harness is an agentic framework for affordance detection with hierarchical memory.
 It combines tool-use planning, visual grounding, segmentation, and memory-augmented reasoning.
