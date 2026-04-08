@@ -14,8 +14,6 @@
   <sup>*</sup>Equal Contribution, <sup>†</sup>Corresponding Author
 </div>
 
-## Teaser
-
 ![A-Harness Teaser](/Figures/comp.png)
 
 A-Harness is an agentic framework for affordance detection with hierarchical memory.
