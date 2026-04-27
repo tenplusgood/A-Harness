@@ -2,19 +2,21 @@
 
 [![Paper](#)](#) [![Project Page](https://img.shields.io/badge/Project-Page-green)](https://tenplusgood.github.io/a-harness-page/)
 
-<div class="authors">
-  <a href="http://www.wonghougin.me/">Haojian Huang</a><sup>1,2*</sup>, 
-  <a href="https://tenplusgood.github.io/">Jiahao Shi</a><sup>2,3*</sup>, 
-  Yinchuan Li<sup>1,2</sup>, 
-  Yingcong Chen<sup>1,2†</sup>
-</div>
+  <div class="authors">
+    <a href="http://www.wonghougin.me/">Haojian Huang</a><sup>1,2*</sup>, 
+    <a href="https://tenplusgood.github.io/">Jiahao Shi</a><sup>2,3*</sup>, 
+    <a href="https://yinchuanll.github.io/">Yinchuan Li</a><sup>1,2</sup>, 
+    <a href="https://www.yingcong.me/">Yingcong Chen</a><sup>1,2†</sup>
+  </div>
 
 <div class="affiliations">
   <sup>1</sup>HKUST(GZ), <sup>2</sup>Knowin, <sup>3</sup>Harbin Engineering University<br>
   <sup>*</sup>Equal Contribution, <sup>†</sup>Corresponding Author
 </div>
 
-![A-Harness Teaser](/Figures/method.png)
+<div align="center">
+  <img src="/Figures/method.png" alt="A-Harness Teaser" width="60%">
+</div>
 
 A-Harness is an agentic framework for affordance detection with hierarchical memory.
 It combines tool-use planning, visual grounding, segmentation, and memory-augmented reasoning.
@@ -35,78 +37,5 @@ It combines tool-use planning, visual grounding, segmentation, and memory-augmen
 
 ### 1. Create environment
 
-```bash
 conda create -n a-harness python=3.11
 conda activate a-harness
-```
-
-### 2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Configure API credentials
-
-Use `.env` (recommended):
-
-```bash
-cp .env.example .env
-# Fill API_BASE_URL and API_KEY in .env
-```
-
-Optional fallback:
-
-```bash
-cp config.example.py config.py
-```
-
-## Run on Custom Images
-
-```bash
-python demo/run.py \
-  --image_path /path/to/image.jpg \
-  --task "What part should be pressed?"
-```
-
-You can also check command templates:
-
-```bash
-bash scripts/commands.sh
-```
-
-## Run on Benchmark Datasets
-
-### ReasonAff
-
-```bash
-python demo/evaluate_reasonaff.py \
-  --dataset_path dataset/reasonaff/test \
-  --output_dir output/eval_reasonaff
-```
-
-### UMD
-
-```bash
-python demo/evaluate_umd.py \
-  --dataset_path dataset/UMD \
-  --output_dir output/eval_umd
-```
-
-## Acknowledgement
-
-* [RAGNet](https://github.com/wudongming97/AffordanceNet)
-* [Affordance-R1](https://github.com/hq-King/Affordance-R1)
-
-## Citation
-
-If this repository is useful for your research, please cite:
-
-```bibtex
-@article{tbd,
-  title={TBD},
-  author={TBD},
-  journal={TBD},
-  year={TBD}
-}
-```
