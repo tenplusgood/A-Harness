@@ -1,9 +1,9 @@
 # A-Harness: An Agentic Framework for Affordance Detection
 
-[![Paper](#)](#) [![Project Page](https://img.shields.io/badge/Project-Page-green)](https://tenplusgood.github.io/a-harness-page/)
-
+[![Paper](#)](#) [![Project Page](https://img.shields.io/badge/Project-Page-green)](https://arxiv.org/abs/2605.00663)
+[![Project Page](#)](#) [![Project Page](https://img.shields.io/badge/Project-Page-green)](https://tenplusgood.github.io/a-harness-page/)
   <div class="authors">
-    <a href="http://www.wonghougin.me/">Haojian Huang</a><sup>1,2*</sup>, 
+    <a href="https://jethrojames.github.io/">Haojian Huang</a><sup>1,2*</sup>, 
     <a href="https://tenplusgood.github.io/">Jiahao Shi</a><sup>2,3*</sup>, 
     <a href="https://yinchuanll.github.io/">Yinchuan Li</a><sup>1,2</sup>, 
     <a href="https://www.yingcong.me/">Yingcong Chen</a><sup>1,2†</sup>
